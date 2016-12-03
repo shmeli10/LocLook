@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InfoDialog_Container_LL">
+
+    <LinearLayout
+        android:id="@+id/InfoDialog_WhereIsItLL"
+        style="@style/InfoDialog_WhereIsIt_LL">
+
+        <ImageView style="@style/InfoDialog_WhereIsIt_IV" />
+        <View style="@style/One_Row_Strut"/>
+        <TextView style="@style/InfoDialog_WhereIsIt_TV" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/InfoDialog_ShareLL"
+        style="@style/InfoDialog_Share_LL">
+
+        <ImageView style="@style/InfoDialog_Share_IV" />
+        <View style="@style/One_Row_Strut"/>
+        <TextView style="@style/InfoDialog_Share_TV" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/InfoDialog_OwnButtonLL"
+        style="@style/WWH">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/InfoDialog_CloseLL"
+        style="@style/InfoDialog_Close_LL">
+
+        <TextView style="@style/InfoDialog_Close_TV" />
+
+    </LinearLayout>
+
+</LinearLayout>

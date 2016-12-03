@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AnswerRow_AnswerContainerLL"
+    style="@style/AnswerRow_AnswerContainer_LL">
+
+    <LinearLayout
+        android:id="@+id/AnswerRow_UserAvatar_LL"
+        style="@style/AnswerRow_UserAvatar_LL">
+
+        <ImageView
+            android:id="@+id/AnswerRow_UserAvatarIV"
+            style="@style/AnswerRow_UserAvatar_IV" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/WWV"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/AnswerRow_UserName_LL"
+            style="@style/WWH">
+
+            <TextView
+                android:id="@+id/AnswerRow_UserNameTV"
+                style="@style/AnswerRow_UserName_TV"/>
+
+        </LinearLayout>
+        <LinearLayout style="@style/WWH">
+
+            <TextView
+                android:id="@+id/AnswerRow_AnswerTextTV"
+                style="@style/AnswerRow_AnswerText_TV" />
+
+        </LinearLayout>
+        <LinearLayout style="@style/WWH">
+
+            <TextView
+                android:id="@+id/AnswerRow_AnswerTimeAgoTextTV"
+                style="@style/AnswerRow_AnswerTimeAgoText_TV"/>
+
+            <TextView
+                android:id="@+id/AnswerRow_SelectRecipientTV"
+                style="@style/AnswerRow_SelectRecipient_TV" />
+
+        </LinearLayout>
+        <LinearLayout style="@style/WWH">
+
+            <LinearLayout style="@style/AnswerRow_HLine">
+
+                <View style="@style/HLine_Grey" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

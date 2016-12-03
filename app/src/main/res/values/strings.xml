@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">                            LocLook                 </string>
+
+    <string name="action_settings">                     Settings                </string>
+
+    <string name="phone_text">                          Телефон:                </string>
+    <string name="phone_head_hint">                     +7                      </string>
+    <string name="phone_body_hint">                     (900) 000 - 00 - 00     </string>
+
+    <string name="enter_text">                          ВОЙТИ                   </string>
+    <string name="back_text">                           НАЗАД                   </string>
+    <string name="continue_text">                       ПРОДОЛЖИТЬ              </string>
+
+    <string name="back_page_text">                      Назад                   </string>
+    <string name="forward_page_text">                   Вперед                  </string>
+
+    <string name="enter_your_name">                     Введите ваше имя        </string>
+    <string name="enter_sms_code">                      Мы выслали вам СМС с кодом подтверждения, введите его в поле ниже   </string>
+
+    <string name="user_name_text">                      Имя                     </string>
+    <string name="enter_user_name_hint">                Имя пользователя..      </string>
+    <string name="enter_sms_code_hint">                 Код..                   </string>
+    <string name="sms_code_noCodeErr">                  Код авторизации отсутствует </string>
+
+    <string name="profile_text">                        Профиль                 </string>
+    <string name="about_me_text">                       О себе                  </string>
+    <string name="site_text">                           Сайт                    </string>
+    <string name="tape_text">                           Лента                   </string>
+    <string name="favorites_text">                      Избранное               </string>
+    <string name="notifications_text">                  Уведомления             </string>
+    <string name="badges_text">                         Бейджики                </string>
+
+    <string name="region_text">                         Регион                  </string>
+    <string name="choose_region_text">                  Выбор региона           </string>
+    <string name="view_radius_text">                    Радиус обзора           </string>
+
+    <string name="text_publication_text">               Текст публикации..      </string>
+    <string name="publication_text">                    Публикация              </string>
+    <string name="publication_text_hint">               Сообщите окружающим что-нибудь интересное   </string>
+    <string name="publication_left_characters_head">    Осталось                </string>
+    <string name="publication_left_characters_tail">    символов                </string>
+
+    <string name="publication_anonymous_text">          Анонимно                </string>
+    <string name="publication_quiz_text">               Опрос                   </string>
+    <string name="publication_badge_text">              Бейджик                 </string>
+
+    <string name="state_on_text">                       (вкл.)                  </string>
+    <string name="state_off_text">                      (выкл.)                 </string>
+
+    <string name="answers_text">                        Ответы                  </string>
+    <string name="answers_sum_text">                    Ответов:                </string>
+    <string name="add_answer_text">                     + Добавить поле         </string>
+
+    <string name="need_more_answers_text">              В опросе должно быть не менее 2 ответов! </string>
+
+    <string name="choose_image_text">                   Выбрать изображение     </string>
+    <string name="camera_text">                         Камера                  </string>
+
+    <string name="user_answer_text_hint">               Напишите свой ответ     </string>
+
+    <string name="likes_text">                          Нравится                </string>
+
+    <string name="where_is_it_text">                    Где это?                </string>
+    <string name="share_text">                          Поделиться              </string>
+    <string name="complain_text">                       Пожаловаться            </string>
+    <string name="delete_text">                         Удалить                 </string>
+    <string name="close_text">                          Закрыть                 </string>
+    <string name="yes_text">                            Да                      </string>
+    <string name="cancel_text">                         Отмена                  </string>
+
+    <string name="enter_region_hint">                   Введите регион          </string>
+
+    <string name="answer_text_hint">                    Текст ответа..          </string>
+    <string name="answer_time_ago_hint">                Время с момента написания ответа..  </string>
+    <string name="answer_to">                           Ответить                </string>
+
+    <string name="default_date">                        00.00.0000            </string>
+
+    <string name="one_minute_ago">                      минуту назад            </string>
+    <string name="two_minutes_ago">                     2 минуты назад          </string>
+    <string name="five_minutes_ago">                    5 минут назад           </string>
+    <string name="ten_minutes_ago">                     10 минут назад          </string>
+    <string name="thirty_minutes_ago">                  30 минут назад          </string>
+    <string name="one_hour_ago">                        час назад               </string>
+    <string name="two_hours_ago">                       2 часа назад            </string>
+    <string name="five_hours_ago">                      5 часов назад           </string>
+    <string name="ten_hours_ago">                       10 часов назад          </string>
+    <string name="one_day_ago">                         день назад              </string>
+    <string name="two_days_ago">                        2 дня назад             </string>
+    <string name="five_days_ago">                       5 дней назад            </string>
+    <string name="one_week_ago">                        неделю назад            </string>
+    <string name="two_weeks_ago">                       2 недели назад          </string>
+    <string name="three_weeks_ago">                     3 недели назад          </string>
+    <string name="one_month_ago">                       месяц назад             </string>
+    <string name="two_month_ago">                       2 месяца назад          </string>
+    <string name="six_month_ago">                       пол-года назад          </string>
+    <string name="one_year_ago">                        год назад               </string>
+    <string name="two_years_ago">                       2 года назад            </string>
+    <string name="five_years_ago">                      5 лет назад             </string>
+
+    <string name="few_seconds_ago">                     несколько секунд назад  </string>
+    <string name="some_time_ago">                       некоторое время назад   </string>
+
+    <string name="undefined_location">                  Местоположение не определено </string>
+    <string name="undefined_area">                      Неизвестная область     </string>
+    <string name="undefined_street">                    Неизвестная улица       </string>
+
+    <string name="choose_action">                       Выбор действия          </string>
+    <string name="change_bg_text">                      Изменить фон            </string>
+
+    <string name="send_claim">                          Пожаловаться            </string>
+    <string name="hide_publication">                    Скрыть публикацию       </string>
+
+    <string name="send_text">                           Отправить               </string>
+
+    <string name="provocation_type_1">                  Оскорбление             </string>
+    <string name="provocation_type_2">                  Материал для взрослых   </string>
+    <string name="provocation_type_3">                  Пропаганда наркотиков   </string>
+    <string name="provocation_type_4">                  Детская порнография     </string>
+    <string name="provocation_type_5">                  Насилие/экстремизм      </string>
+
+    <string name="voted_users_text">                    Всего проголосовало:    </string>
+
+    <string name="select_badge_text">                   Выбрать бейджик:        </string>
+
+    <string name="select_the_action_text">              Выбрать действие:       </string>
+
+    <string name="rotate_on_90_degrees_left_text">      Повернуть на 90 градусов влево  </string>
+    <string name="rotate_on_90_degrees_right_text">     Повернуть на 90 градусов вправо </string>
+
+    <string name="rotate_on_180_degrees_text">          Повернуть на 180 градусов       </string>
+
+    <string name="deleting_publication_text">           Удаление публикации.            </string>
+    <string name="delete_publication_answer_text">      Хотите удалить публикацию?      </string>
+
+    <string name="remove_from_favorites_text">          Удаление публикации из избранного.       </string>
+    <string name="remove_from_favorites_answer_text">   Хотите удалить публикацию из избранного? </string>
+
+    <string name="load_text">                           Загрузка...             </string>
+
+    <string name="notification_text_hint">              Текст уведомления..     </string>
+
+    <string-array name="badges">
+        <item>LocLook</item>
+        <item>Интересные места</item>
+        <item>Одобрение</item>
+        <item>Осуждение</item>
+        <item>Важное</item>
+        <item>Вопрос</item>
+        <item>Спорт</item>
+        <item>Объявления</item>
+        <item>ДТП</item>
+        <item>Сплетни</item>
+        <item>Олень</item>
+        <item>Срочная новость</item>
+        <item>Митинг</item>
+        <item>Плохое обслуживание</item>
+        <item>Работа</item>
+        <item>Мероприятие</item>
+        <item>Спросить дорогу</item>
+        <item>Учеба</item>
+        <item>Игры</item>
+        <item>Новость</item>
+        <item>День рождения</item>
+        <item>ЧП</item>
+        <item>Тусовка</item>
+        <item>Отношения</item>
+    </string-array>
+
+    <string-array name="provocation_types">
+        <item>Спам</item>
+        <item>Оскорбление</item>
+        <item>Материал для взрослых</item>
+        <item>Пропаганда наркотиков</item>
+        <item>Детская порнография</item>
+        <item>Насилие/экстремизм</item>
+    </string-array>
+
+</resources>

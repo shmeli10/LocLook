@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Badges_BadgeRowRL"
+    style="@style/Badges_BadgeRow_RL"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/Badges_BadgeImageIV"
+        style="@style/Badges_Badge_IV"
+        android:src="@drawable/badge_1"/>
+    <TextView
+        android:id="@+id/Badges_BadgeTextTV"
+        style="@style/Badges_BadgeText_TV"
+        android:layout_toRightOf="@+id/Badges_BadgeImageIV"
+        android:text="LocLook"/>
+    <Switch
+        android:id="@+id/Badges_SwitchStatusBTN"
+        style="@style/Badges_SwitchStatus_BTN"/>
+<!--    <ToggleButton
+        android:id="@+id/Badges_SwitchStatusBTN"
+        style="@style/Badges_SwitchStatus_BTN"/>-->
+
+</RelativeLayout>

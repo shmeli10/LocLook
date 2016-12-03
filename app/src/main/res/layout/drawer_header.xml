@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MenuHeader_LL">
+
+    <LinearLayout style="@style/MenuHeader_Container_LL">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/MenuHeader_UserAvatarIV"
+            style="@style/MenuHeader_UserAvatar_IV"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"/>
+        <TextView
+            android:id="@+id/MenuHeader_UserNameTV"
+            style="@style/Main_UserName_TV"/>
+        <View
+            android:id="@+id/MenuHeader_HLineLightGrey"
+            style="@style/HLine_Light_Grey"/>
+
+    </LinearLayout>
+
+</LinearLayout>

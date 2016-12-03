@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FWV"
+    android:background="@color/light_grey">
+
+    <TextView
+        android:id="@+id/Publication_ChooseImageTV"
+        style="@style/Publication_GetImage_TV"
+        android:text="@string/choose_image_text"/>
+    <View style="@style/HLine_Grey" />
+    <TextView
+        android:id="@+id/Publication_CameraTV"
+        style="@style/Publication_GetImage_TV"
+        android:text="@string/camera_text"/>
+
+</LinearLayout>

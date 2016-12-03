@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PublicationLocationDialog_LL"
+    style="@style/PublicationLocationInfoDialog_Container_LL">
+
+    <LinearLayout
+        style="@style/PublicationLocationInfoDialog_RegionMap_LL">
+
+        <fragment
+            android:id="@+id/PublicationLocationDialog_Map"
+            style="@style/PublicationLocationDialog_Map"
+            class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/PublicationLocationDialog_CloseLL"
+        style="@style/PublicationLocationInfoDialog_Close_LL">
+
+        <TextView style="@style/InfoDialog_Close_TV" />
+
+    </LinearLayout>
+
+</LinearLayout>

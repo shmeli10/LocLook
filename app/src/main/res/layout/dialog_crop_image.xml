@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ImageCropDialog_MainLL"
+    style="@style/ImageCropDialog_Main_LL">
+
+    <LinearLayout
+        style="@style/ImagesDialog_Header_LL">
+
+        <TextView style="@style/ImageCropDialog_HeaderText_TV"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/ImageCropDialog_ScrollViewSV"
+        style="@style/FW"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/FWV">
+
+            <com.isseiaoki.simplecropview.CropImageView
+                android:id="@+id/ImageCropDialog_CropIV"
+                style="@style/ImageCropDialog_Crop_IV"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                custom:cropMode="ratio_1_1" />
+            <LinearLayout
+                style="@style/FWH">
+
+                <View style="@style/One_Row_Strut" />
+                <Button
+                    android:id="@+id/ImageCropDialog_Rotate90LeftBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="on 90 left" />
+                <View style="@style/One_Row_Strut" />
+                <Button
+                    android:id="@+id/ImageCropDialog_Rotate180BTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="on 180" />
+                <View style="@style/One_Row_Strut" />
+                <Button
+                    android:id="@+id/ImageCropDialog_Rotate90RightBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="on 90 right" />
+                <View style="@style/One_Row_Strut" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/ImageCropDialog_CloseLL"
+        style="@style/InfoDialog_Close_LL">
+
+        <TextView style="@style/InfoDialog_Close_TV" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RegionMap_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/RegionMap_HamburgerWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp">
+            <ImageView
+                android:id="@+id/RegionMap_HamburgerIV"
+                style="@style/Hamburger_IV" />
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            style="@style/Title_HeaderBlock_TV"
+            android:text="@string/choose_region_text"/>
+        <View style="@style/Strut"/>
+        <LinearLayout
+            android:id="@+id/RegionMap_RefreshArrowWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp">
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/RegionMap_RefreshArrowIV"
+                style="@style/RegionMap_RefreshArrow_IV" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView style="@style/RegionMap_RegionText_TV"/>
+    <View style="@style/HLine_Blue"/>
+    <LinearLayout style="@style/RegionMap_Region_LL">
+
+        <ImageView style="@style/RegionMap_RegionMarker_IV"/>
+        <EditText
+            android:id="@+id/RegionMap_RegionNameET"
+            style="@style/RegionMap_RegionName_ET"/>
+        <LinearLayout
+            android:id="@+id/RegionMap_FindLocationWrapLL"
+            style="@style/Image_Wrap">
+            <ImageView
+                android:id="@+id/RegionMap_FindLocationIV"
+                style="@style/RegionMap_FindLocation_IV"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView style="@style/RegionMap_ViewRadiusText_TV"/>
+    <View style="@style/HLine_Blue"/>
+    <SeekBar
+        android:id="@+id/RegionMap_ViewRadiusSB"
+        style="@style/RegionMap_ViewRadius_SB">
+
+    </SeekBar>
+    <LinearLayout style="@style/RegionMap_Map_LL">
+
+        <fragment
+            android:id="@+id/RegionMap_Map"
+            style="@style/RegionMap_MapFragment"
+            class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    </LinearLayout>
+
+</LinearLayout>

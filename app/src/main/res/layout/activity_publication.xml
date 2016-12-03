@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Publication_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/Publication_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="100dp">
+
+            <ImageView
+                android:id="@+id/Publication_ArrowBackIV"
+                style="@style/ArrowBack_IV" />
+
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            style="@style/Title_HeaderBlock_TV"
+            android:text="@string/publication_text"/>
+        <View style="@style/Strut"/>
+        <LinearLayout
+            android:id="@+id/Publication_PhotoCameraWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/Publication_PhotoCameraIV"
+                style="@style/Publication_PhotoCamera_IV"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Publication_SendPublicationWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="50dp">
+
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/Publication_SendPublicationIV"
+                style="@style/Publication_SendPublication_IV" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            style="@style/FF"
+            android:orientation="vertical">
+
+            <RelativeLayout style="@style/Publication_PublicationRow_LL">
+
+                <EditText
+                    android:id="@+id/Publication_PublicationTextET"
+                    style="@style/Publication_PublicationText_ET"/>
+                <TextView
+                    android:id="@+id/Publication_LeftCharactersHead"
+                    style="@style/Publication_LeftCharacters_Head_TV"/>
+                <TextView
+                    android:id="@+id/Publication_LeftCharactersBodyTV"
+                    style="@style/Publication_LeftCharacters_Body_TV"/>
+                <TextView
+                    android:id="@+id/Publication_LeftCharactersTail"
+                    style="@style/Publication_LeftCharacters_Tail_TV"/>
+
+            </RelativeLayout>
+            <LinearLayout style="@style/Publication_GreyLine_LL">
+
+                <View style="@style/HLine_Grey"/>
+
+            </LinearLayout>
+            <RelativeLayout style="@style/Publication_PublicationRow_LL">
+
+                <TextView
+                    android:id="@+id/Publication_AnonymousTV"
+                    style="@style/Publication_RowFirstLabel_TV"
+                    android:text="@string/publication_anonymous_text"/>
+                <TextView
+                    android:id="@+id/Publication_AnonymousStateTV"
+                    style="@style/Publication_RowSecondLabel_TV"
+                    android:layout_toRightOf="@+id/Publication_AnonymousTV"
+                    android:text="@string/state_off_text"/>
+                <Switch
+                    android:id="@+id/Publication_AnonymousSwitchBTN"
+                    style="@style/Publication_Switch_BTN"/>
+                <!--<ToggleButton-->
+                    <!--android:id="@+id/Publication_AnonymousSwitchBTN"-->
+                    <!--style="@style/Publication_Switch_BTN"/>-->
+
+            </RelativeLayout>
+            <LinearLayout style="@style/Publication_GreyLine_LL">
+
+                <View style="@style/HLine_Grey"/>
+
+            </LinearLayout>
+            <RelativeLayout style="@style/Publication_PublicationRow_LL">
+
+                <TextView
+                    android:id="@+id/Publication_QuizTV"
+                    style="@style/Publication_RowFirstLabel_TV"
+                    android:text="@string/publication_quiz_text"/>
+                <TextView
+                    android:id="@+id/Publication_QuizStateTV"
+                    style="@style/Publication_RowSecondLabel_TV"
+                    android:layout_toRightOf="@+id/Publication_QuizTV"
+                    android:text="@string/state_off_text"/>
+                <Switch
+                    android:id="@+id/Publication_QuizSwitchBTN"
+                    style="@style/Publication_Switch_BTN"/>
+                <!--<ToggleButton-->
+                    <!--android:id="@+id/Publication_QuizSwitchBTN"-->
+                    <!--style="@style/Publication_Switch_BTN"/>-->
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/Publication_QuizAnswersLL"
+                style="@style/Publication_Fragment_LL">
+
+            </LinearLayout>
+            <LinearLayout style="@style/Publication_GreyLine_LL">
+
+                <View style="@style/HLine_Grey"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/Publication_BadgeRowRL"
+                style="@style/Publication_BadgeRow_RL">
+
+                <TextView
+                    android:id="@+id/Publication_BadgeTV"
+                    style="@style/Publication_RowFirstLabel_TV"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/publication_badge_text"/>
+                <ImageView
+                    style="@style/Publication_ShowBadges_IV"
+                    android:layout_marginTop="12dp"/>
+                <TextView
+                    android:id="@+id/Publication_BadgeNameTV"
+                    style="@style/Publication_RowSecondLabel_TV"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@+id/Publication_BadgeImageIV"
+                    android:text="@string/app_name"/>
+                <ImageView
+                    android:id="@+id/Publication_BadgeImageIV"
+                    style="@style/Publication_BadgeImage_IV"/>
+
+            </RelativeLayout>
+            <LinearLayout style="@style/Publication_GreyLine_LL">
+
+                <View style="@style/HLine_Grey"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/Publication_ImageContainerLL"
+                style="@style/Publication_ImageContainer_LL">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

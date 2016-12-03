@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base_LL">
+
+    <ImageView style="@style/UserName_SMSCode_AppLogo_IV"/>
+    <TextView style="@style/UserName_SMSCode_Enter_TV"/>
+    <View style="@style/HLine_Blue"/>
+    <TextView
+        style="@style/UserName_SMSCode_Info_TV"
+        android:text="@string/enter_your_name"/>
+    <EditText
+        android:id="@+id/UserName_UserNameET"
+        style="@style/UserName_UserName_ET"/>
+    <LinearLayout style="@style/UserName_SmsCode_Buttons_LL">
+
+        <ImageView
+            android:id="@+id/UserName_BackIV"
+            style="@style/UserName_SmsCode_Back_IV"/>
+        <TextView style="@style/UserName_SmsCode_Back_TV"/>
+        <View style="@style/Strut"/>
+        <TextView style="@style/UserName_SmsCode_Continue_TV"/>
+        <ImageView
+            android:id="@+id/UserName_ContinueIV"
+            style="@style/UserName_SmsCode_Continue_IV"/>
+
+    </LinearLayout>
+
+</LinearLayout>

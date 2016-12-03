@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MenuFooter_LL">
+
+    <LinearLayout style="@style/MenuFooter_Container_LL">
+
+        <View
+            android:id="@+id/MenuFooter_HLineLightGrey"
+            style="@style/HLine_Light_Grey"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <ImageView
+            android:id="@+id/MenuFooter_AppLogoIV"
+            style="@style/MenuFooter_AppLogo_IV" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androiditgroup.loclook"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <meta-data android:name="PW_APPID" android:value="XXXXX-XXXXX" />
+    <meta-data android:name="PW_PROJECT_ID" android:value="A123456789012" />
+
+    <!-- Permission to get DeviceId -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- Enables vibration permission for notification. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAfnQwpzKlv-JT9QUoJofWeZfPnmsfscDs"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".preloader.Preloader_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".phone_number_pkg.PhoneNumber_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".sms_code_pkg.SMSCode_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".tape_pkg.Tape_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".favorites_pkg.Favorites_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".notifications_pkg.Notifications_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".badges_pkg.Badges_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".region_map_pkg.RegionMap_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".publication_pkg.Publication_Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".answers_pkg.Answers_Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".user_name_pkg.UserName_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".user_profile_pkg.User_Profile_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".user_profile_pkg.User_Profile_Settings_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".utils_pkg.FullScreen_Image_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    </application>
+
+</manifest>

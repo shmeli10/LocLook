@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Badges_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/Badges_HamburgerWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp">
+            <ImageView
+                android:id="@+id/Badges_HamburgerIV"
+                style="@style/Hamburger_IV" />
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            style="@style/Title_HeaderBlock_TV"
+            android:layout_marginRight="40dp"
+            android:text="@string/badges_text"/>
+        <LinearLayout
+            android:id="@+id/Answers_PublicationWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="100dp">
+
+            <View style="@style/Strut"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/Badges_Container_LL"
+            style="@style/FFV">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

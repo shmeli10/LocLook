@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/User_Profile_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/UserProfile_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <ImageView
+                android:id="@+id/UserProfile_ArrowBackIV"
+                style="@style/ArrowBack_IV" />
+
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            android:id="@+id/UserProfile_TitleTV"
+            style="@style/Title_HeaderBlock_TV"/>
+        <View style="@style/Strut"/>
+        <LinearLayout
+            android:id="@+id/UserProfile_PublicationWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/UserProfile_PublicationIV"
+                style="@style/Publication_IV" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        style="@style/FW">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout style="@style/FFV">
+
+                <LinearLayout
+                    android:id="@+id/UserProfile_TopBgLL"
+                    style="@style/UserProfile_TopBG_LL">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/UserProfile_DownBgLL"
+                    style="@style/FFH"
+                    android:background="@color/white"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/UserProfile_UserDataLL"
+                style="@style/FWV"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/UserProfile_ProfileHeaderLL"
+                    style="@style/FWH"
+                    android:layout_marginTop="82dp" >
+
+                    <View style="@style/One_Row_Strut"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/UserProfile_SettingsWrapIV"
+                        style="@style/UserProfile_SettingsWrap_IV"
+                        app:civ_border_width="13dp"
+                        app:civ_border_color="@color/white"/>
+                    <View style="@style/One_Row_Strut"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/UserProfile_UserAvatarIV"
+                        style="@style/UserProfile_UserAvatar_IV"
+                        app:civ_border_width="0dp"
+                        app:civ_border_color="@color/white" />
+                    <View style="@style/One_Row_Strut"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/UserProfile_ExitWrapIV"
+                        style="@style/UserProfile_ExitWrap_IV"
+                        app:civ_border_width="13dp"
+                        app:civ_border_color="@color/white" />
+                    <View style="@style/One_Row_Strut"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/UserProfile_ProfileTextDataLL"
+                    style="@style/FWV">
+
+                    <TextView
+                        android:id="@+id/UserProfile_UserNameTV"
+                        style="@style/UserProfile_UserName_TV"/>
+                    <View
+                        android:id="@+id/UserProfile_HLineBlue"
+                        style="@style/HLine_Blue"/>
+                    <TextView
+                        android:id="@+id/UserProfile_AboutMeTV"
+                        style="@style/UserProfile_AboutMe_TV"/>
+                    <LinearLayout
+                        style="@style/WWH"
+                        android:layout_gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/UserProfile_UserLocationTV"
+                            style="@style/UserProfile_UserLocation_TV"/>
+                        <TextView
+                            android:id="@+id/UserProfile_DelimiterTV"
+                            style="@style/UserProfile_Site_TV"/>
+                        <TextView
+                            android:id="@+id/UserProfile_SiteTV"
+                            style="@style/UserProfile_Site_TV"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/UserProfile_PublicationsLL"
+                    style="@style/UserProfile_Publications_LL">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>

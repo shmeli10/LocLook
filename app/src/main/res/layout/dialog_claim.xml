@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ClaimDialog_LL"
+    style="@style/ClaimDialog_Container_LL">
+
+    <LinearLayout
+        style="@style/ClaimDialog_Header_LL">
+
+        <TextView style="@style/ClaimDialog_HeaderText_TV"/>
+
+    </LinearLayout>
+    <ListView android:id="@+id/ClaimDialog_ProvocationTypeLV"
+              style="@style/ClaimInfoDialog_ProvocationType_LV"/>
+    <LinearLayout style="@style/ClaimDialog_HidePublication_LL">
+
+        <TextView android:id="@+id/ClaimDialog_HidePublicationTV"
+            style="@style/ClaimDialog_HidePublication_TV"/>
+        <View style="@style/One_Row_Strut"/>
+        <CheckBox android:id="@+id/ClaimDialog_HidePublicationChBox"
+            style="@style/WW"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout style="@style/ClaimDialog_Buttons_LL">
+
+        <View style="@style/One_Row_Strut"/>
+        <TextView
+            android:id="@+id/ClaimDialog_CancelTV"
+            style="@style/ClaimDialog_Cancel_TV" />
+        <View style="@style/One_Row_Strut"/>
+        <TextView
+            android:id="@+id/ClaimDialog_SendTV"
+            style="@style/ClaimDialog_Send_TV" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ProvocationTypeRow_Text_TV"
+    style="@style/ClaimDialog_ProvocationTypeText_TV"
+    android:text=""/>

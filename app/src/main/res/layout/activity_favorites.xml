@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Favorites_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/Favorites_HamburgerWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp">
+            <ImageView
+                android:id="@+id/Favorites_HamburgerIV"
+                style="@style/Hamburger_IV" />
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            style="@style/Title_HeaderBlock_TV"
+            android:text="@string/favorites_text"/>
+        <View style="@style/Strut"/>
+        <LinearLayout
+            android:id="@+id/Favorites_PublicationWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="100dp">
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/Favorites_PublicationIV"
+                style="@style/Publication_IV" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

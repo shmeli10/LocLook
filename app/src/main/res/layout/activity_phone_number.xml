@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Phone_Number_Base_LL"
+    style="@style/Phone_Number_LL">
+
+    <ImageView style="@style/Phone_Number_AppLogo_IV"/>
+    <LinearLayout style="@style/Phone_Number_DataBlock_LL">
+
+        <LinearLayout style="@style/Phone_Number_PhoneHead_LL">
+
+            <TextView style="@style/Phone_Number_PhoneText_TV"/>
+            <TextView style="@style/Phone_Number_PhoneHead_TV"/>
+            <View style="@style/Phone_Number_HLine"/>
+
+        </LinearLayout>
+        <LinearLayout style="@style/Phone_Number_PhoneBody_LL">
+
+            <TextView style="@style/Phone_Number_PhoneBody_TV"/>
+            <EditText
+                android:id="@+id/Phone_Number_PhoneBodyET"
+                style="@style/Phone_Number_PhoneBody_ET"/>
+            <View style="@style/Phone_Number_HLine"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout style="@style/Phone_Number_ButtonBlock_LL">
+
+        <Button
+            android:id="@+id/Phone_Number_EnterBTN"
+            style="@style/Phone_Number_Enter_BTN"/>
+
+    </LinearLayout>
+
+</LinearLayout>

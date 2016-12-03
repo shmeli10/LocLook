@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BadgesDialog_MainLL"
+    style="@style/BadgesDialog_Main_LL">
+
+    <LinearLayout
+        style="@style/BadgesDialog_Header_LL">
+
+        <TextView style="@style/BadgesDialog_HeaderText_TV"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/BadgesDialog_ScrollViewSV"
+        style="@style/FW"
+        android:layout_weight="1">
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/BadgesDialog_CloseLL"
+        style="@style/InfoDialog_Close_LL">
+
+        <TextView style="@style/InfoDialog_Close_TV" />
+
+    </LinearLayout>
+
+</LinearLayout>

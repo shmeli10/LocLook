@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Favorites_LL"
+    style="@style/Base_LL">
+
+    <LinearLayout style="@style/Yellow_HeaderBlock_LL">
+
+        <LinearLayout
+            android:id="@+id/Answers_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp">
+            <ImageView
+                android:id="@+id/Answers_ArrowBackIV"
+                style="@style/ArrowBack_IV" />
+        </LinearLayout>
+        <View style="@style/Strut"/>
+        <TextView
+            style="@style/Title_HeaderBlock_TV"
+            android:text="@string/answers_text"/>
+        <View style="@style/Strut"/>
+        <LinearLayout
+            android:id="@+id/Answers_PublicationWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="100dp">
+            <View style="@style/One_Row_Strut" />
+            <ImageView
+                android:id="@+id/Answers_PublicationIV"
+                style="@style/Publication_IV" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/Answers_ScrollViewSV"
+        style="@style/FW"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/Answers_DataContainerLL"
+            style="@style/Answers_DataContainer_LL">
+
+            <LinearLayout
+                android:id="@+id/Answers_PublicationData_LL"
+                style="@style/FWV">
+
+                <LinearLayout
+                    android:id="@+id/Answers_PublicationHeader_LL"
+                    style="@style/Answers_PublicationHeader_LL">
+
+                    <ImageView
+                        android:id="@+id/Answers_UserAvatarIV"
+                        style="@style/Answers_UserAvatar_IV"/>
+                    <LinearLayout
+                        style="@style/WWV">
+
+                        <TextView
+                            android:id="@+id/Answers_UserNameTV"
+                            style="@style/Answers_UserName_TV"/>
+                        <TextView
+                            android:id="@+id/Answers_PublicationDateTV"
+                            style="@style/Answers_PublicationDate_TV" />
+
+                    </LinearLayout>
+                    <!--<View
+                        style="@style/WW"
+                        android:layout_weight="1"/>-->
+                    <View style="@style/One_Row_Strut" />
+                    <ImageView
+                        android:id="@+id/Answers_BadgeIV"
+                        style="@style/Badges_Badge_IV"
+                        android:src="@drawable/badge_1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/Answers_PublicationBody_LL"
+                    style="@style/Answers_PublicationBody_LL">
+
+                    <TextView
+                        android:id="@+id/Answers_PublicationTextTV"
+                        style="@style/Answers_PublicationText_TV" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/Answers_PhotoContainerLL"
+                    style="@style/FWH"
+                    android:gravity="center_vertical|center_horizontal">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/Answers_QuizContainerLL"
+                    style="@style/FWH"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp">
+
+                </LinearLayout>
+                <View style="@style/HLine_Grey" />
+                <LinearLayout
+                    android:id="@+id/Answers_PublicationFooter_LL"
+                    style="@style/Answers_PublicationFooter_LL">
+
+                    <LinearLayout
+                        android:id="@+id/Answers_FavoritesWrapLL"
+                        style="@style/Image_Wrap"
+                        android:layout_width="74dp">
+                        
+                        <ImageView
+                            android:id="@+id/Answers_FavoritesIV"
+                            style="@style/Answers_Favorites_IV"/>
+                    </LinearLayout>
+                    <!--<View
+                        style="@style/WW"
+                        android:layout_weight="1"/>-->
+                    <View style="@style/One_Row_Strut" />
+                    <LinearLayout
+                        android:id="@+id/Answers_PublicationInfoWrapLL"
+                        style="@style/Image_Wrap"
+                        android:layout_width="50dp">
+
+                        <View style="@style/One_Row_Strut" />
+                        <ImageView
+                            android:id="@+id/Answers_PublicationInfoIV"
+                            style="@style/Answers_PublicationInfo_IV"/>
+                        <View style="@style/One_Row_Strut" />
+
+                    </LinearLayout>
+                    <!--<View
+                        style="@style/WW"
+                        android:layout_weight="1"/>-->
+                    <View style="@style/One_Row_Strut" />
+                    <LinearLayout
+                        android:id="@+id/Answers_LikedDataLL"
+                        style="@style/Answers_LikedData_LL">
+
+                        <TextView
+                            android:id="@+id/Answers_LikedTextTV"
+                            style="@style/Answers_LikedText_TV"/>
+                        <TextView
+                            android:id="@+id/Answers_LikedSumTV"
+                            style="@style/Answers_LikedSum_TV"/>
+                        <ImageView
+                            android:id="@+id/Answers_LikedIV"
+                            style="@style/Answers_Liked_IV"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/HLine_Grey" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/Answers_AnswersSumLL"
+                style="@style/FFH">
+
+                <TextView
+                    android:id="@+id/Answers_AnswersSumTextTV"
+                    style="@style/Answers_AnswersSumText_TV"/>
+                <TextView
+                    android:id="@+id/Answers_AnswersSumValueTV"
+                    style="@style/Answers_AnswersSumValue_TV"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/Answers_AnswersContainerLL"
+                style="@style/FWV"
+                android:layout_marginBottom="10dp">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/Answers_FooterContainerLL"
+        style="@style/FWV">
+
+        <View style="@style/HLine_Grey" />
+        <LinearLayout
+            android:id="@+id/Answers_UserAnswerLL"
+            style="@style/Answers_UserAnswer_LL">
+
+            <EditText
+                android:id="@+id/Answers_UserAnswerTextET"
+                style="@style/Answers_UserAnswerText_ET"/>
+            <LinearLayout
+                style="@style/Answers_SendUserAnswer_LL">
+
+                <LinearLayout
+                    android:id="@+id/Answers_SendUserAnswerWrapLL"
+                    style="@style/Image_Wrap"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent">
+
+                    <View style="@style/One_Row_Strut" />
+                    <ImageView
+                        android:id="@+id/Answers_SendUserAnswerIV"
+                        style="@style/Answers_SendUserAnswer_IV"/>
+                    <View style="@style/One_Row_Strut" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

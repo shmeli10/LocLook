@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TapeRow_PublicationContainerLL"
+    style="@style/FWV">
+
+    <LinearLayout
+        android:id="@+id/TapeRow_PublicationHeaderLL"
+        style="@style/TapeRow_PublicationHeader_LL">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/TapeRow_UserAvatarIV"
+            style="@style/TapeRow_UserAvatar_IV" />
+        <LinearLayout
+            android:id="@+id/TapeRow_UserDataLL"
+            style="@style/TapeRow_UserData_LL">
+
+            <TextView
+                android:id="@+id/TapeRow_UserNameTV"
+                style="@style/TapeRow_UserName_TV" />
+            <TextView
+                android:id="@+id/TapeRow_PublicationDateTV"
+                style="@style/TapeRow_PublicationDate_TV" />
+
+        </LinearLayout>
+        <View style="@style/One_Row_Strut" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/TapeRow_BadgeImageIV"
+            style="@style/TapeRow_BadgeImage_IV" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/TapeRow_PublicationBodyLL"
+        style="@style/TapeRow_PublicationBody_LL">
+
+        <LinearLayout
+            android:id="@+id/TapeRow_TextContainerLL"
+            style="@style/FWH">
+
+            <TextView
+                android:id="@+id/TapeRow_PublicationTextTV"
+                style="@style/TapeRow_PublicationText_TV" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/TapeRow_PhotoContainerLL"
+            style="@style/FWH">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/TapeRow_QuizContainerLL"
+            style="@style/FWH"
+            android:layout_marginTop="5dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/TapeRow_PublicationFooterLL"
+        style="@style/TapeRow_PublicationFooter_LL">
+
+        <!--
+        <LinearLayout
+            android:id="@+id/TapeRow_FavoritesLL"
+            style="@style/TapeRow_Favorites_LL">
+        -->
+        <LinearLayout
+            android:id="@+id/TapeRow_FavoritesWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="74dp">
+
+            <ImageView
+                android:id="@+id/TapeRow_FavoritesIV"
+                style="@style/TapeRow_Favorites_IV" />
+
+        </LinearLayout>
+        <View style="@style/One_Row_Strut" />
+        <!--
+        <LinearLayout
+            android:id="@+id/TapeRow_AnswersLL"
+            style="@style/TapeRow_Favorites_LL">
+        -->
+        <LinearLayout
+            android:id="@+id/TapeRow_AnswersWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TapeRow_AnswersSumTV"
+                style="@style/TapeRow_AnswersSum_TV" />
+            <ImageView
+                android:id="@+id/TapeRow_AnswersIV"
+                style="@style/TapeRow_Answers_IV" />
+
+        </LinearLayout>
+        <View style="@style/One_Row_Strut" />
+        <!--
+        <LinearLayout
+            android:id="@+id/TapeRow_LikedLL"
+            style="@style/TapeRow_Favorites_LL">
+        -->
+        <LinearLayout
+            android:id="@+id/TapeRow_LikedWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="90dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TapeRow_LikedSumTV"
+                style="@style/TapeRow_AnswersSum_TV" />
+            <ImageView
+                android:id="@+id/TapeRow_LikedIV"
+                style="@style/TapeRow_Likes_IV" />
+
+        </LinearLayout>
+        <View style="@style/One_Row_Strut" />
+        <!--
+        <LinearLayout
+            android:id="@+id/TapeRow_InfoLL"
+            style="@style/TapeRow_Favorites_LL">
+        -->
+        <LinearLayout
+            android:id="@+id/TapeRow_InfoWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="74dp"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/TapeRow_PublicationInfoIV"
+                style="@style/TapeRow_PublicationInfo_IV" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/TapeRow_HLine_LL"
+        style="@style/FFH">
+
+    </LinearLayout>
+
+</LinearLayout>

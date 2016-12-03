@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#f9c35e</color>
+    <color name="white">#fdfdfe</color>
+    <color name="orange">#fdad40</color>
+    <color name="blue">#62adc6</color>
+    <color name="user_name_blue">#0098d4</color>
+    <color name="light_blue">#c3e6f1</color>
+    <color name="light_grey">#dfeaee</color>
+    <color name="btn_grey">#d7e5e7</color>
+    <color name="avatar_grey">#f0f4f5</color>
+    <color name="h_line_grey">#e2eaeb</color>
+    <color name="h_light_grey">#c6d9e1</color>
+    <color name="dark_grey">#4e7883</color>
+    <color name="black_text">#374547</color>
+    <color name="red_text">#fd656d</color>
+
+    <color name="map_circle_color1">#40ff0000</color>
+    <color name="map_circle_color">#23ff0000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="selected_item_orange">#fd8435</color>
+
+    <color name="menu_bg_color">#eef4f7</color>
+
+    <!--<color name="menu_item_text_color">#5e7f8e</color>-->
+    <color name="menu_item_active_text_color">#fc8e00</color>
+    <color name="menu_item_bg_active_color">#ffe4ac</color>
+
+    <color name="menu_grey">#e0e9ed</color>
+
+    <color name="spam_blue">#001442</color>
+
+    <color name="quiz_selected_answer">#fdda97</color>
+    <color name="quiz_answer">#fdf3de</color>
+    <color name="quiz_answer_text">#6e5946</color>
+
+
+    <color name="footer_buttons_text_grey">#9eb8c4</color>
+    <color name="user_name_text_grey">#5e7f8e</color>
+    <color name="link_text_blue">#0b9dd6</color>
+
+
+    <!--<color name="quiz_answer_text">#e8f4f8</color> -->
+
+</resources>
